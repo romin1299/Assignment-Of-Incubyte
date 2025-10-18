@@ -16,4 +16,8 @@ describe("String calculator of TDD", () => {
   test("multiple string number to return 10", () => {
     expect(add("1,2,3,4")).toBe(10);
   });
+
+  test("add new lines between numbers (instead of commas)", () => {
+    expect(add("1\n2")).toBe(3);
+  });
 });
