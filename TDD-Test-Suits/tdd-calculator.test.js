@@ -20,4 +20,8 @@ describe("String calculator of TDD", () => {
   test("add new lines between numbers (instead of commas)", () => {
     expect(add("1\n2,3")).toBe(6);
   });
+
+  test("add different delimiters with the beginning of the string will contain a separate line ", () => {
+    expect(add("//;1;2")).toBe(3);
+  });
 });
