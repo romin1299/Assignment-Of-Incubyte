@@ -24,4 +24,8 @@ describe("String calculator of TDD", () => {
   test("add different delimiters with the beginning of the string will contain a separate line ", () => {
     expect(add("//;\n1;2")).toBe(3);
   });
+
+  test("add  negative number will throw an exception ", () => {
+    expect(add("1,2,-3")).toBe(3);
+  });
 });
