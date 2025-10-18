@@ -17,6 +17,7 @@ const add = (numberAsString) => {
   });
 
   const splitWithCommaSeprator = allCommaSeperatorString
+    ?.trim()
     ?.split(",")
     .map((n) => Number(n));
 

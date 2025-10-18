@@ -32,4 +32,8 @@ describe("String calculator of TDD", () => {
   test("add negative number will throw an exception", () => {
     expect(() => add("1,2\n3,4,-5")).toThrow(Error);
   });
+
+  test("add refactor for extra space", () => {
+    expect(add("1\n2,    3")).toBe(6);
+  });
 });
