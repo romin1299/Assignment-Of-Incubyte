@@ -1,0 +1,20 @@
+# String Calculator (TDD Kata) - JavaScript
+
+This repository contains a String Calculator implemented using a TDD workflow.
+It supports:
+
+- Empty string => 0
+- Comma String
+- newline as delimiters
+- Custom delimiter syntax: `//<delimiter>\n<numbers...>` (supports multi-character delimiters)
+- Throws an error for negative numbers and lists all negatives in the message
+
+## How to run assignment
+
+- Clone the repository https://github.com/romin1299/Assignment-Of-Incubyte.git
+- Install dependencies - npm install
+
+## How to run test suits
+
+- Go inside the TDD-Test-Suits folder
+- run the command in command prompt - npm test
