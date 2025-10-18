@@ -13,7 +13,7 @@ describe("String calculator of TDD", () => {
     expect(add("1,2")).toBe(3);
   });
 
-  test("multiple string number to return 6", () => {
-    expect(add("1,2,3")).toBe(6);
+  test("multiple string number to return 10", () => {
+    expect(add("1,2,3,4")).toBe(10);
   });
 });
